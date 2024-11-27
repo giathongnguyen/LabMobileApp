@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import App from '../component/App';
+import App from "../src/App";
 
 export default function Page() {
   return (
@@ -23,7 +23,4 @@ const styles = StyleSheet.create({
     maxWidth: 960,
     marginHorizontal: "auto",
   },
-  
 });
-
-
