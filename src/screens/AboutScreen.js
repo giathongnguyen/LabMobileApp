@@ -1,6 +1,6 @@
 import MainLayout from "../layouts/MainLayout";
 import React from "react";
-import { SafeAreaView, Text, StyleSheet } from "react-native";
+import { Text, StyleSheet } from "react-native";
 
 function AboutScreen() {
   const currentDate = new Date().toLocaleDateString();

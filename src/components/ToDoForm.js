@@ -17,7 +17,11 @@ function ToDoForm({ addTask }) {
         onChangeText={(text) => setTaskText(text)}
         value={taskText}
       />
-      <Button title="Add Task" onPress={handleAddTask} />
+      <Button
+        style={{ marginRight: 100 }}
+        title="Add Task"
+        onPress={handleAddTask}
+      />
     </View>
   );
 }
